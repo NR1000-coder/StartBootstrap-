@@ -1,0 +1,62 @@
+header
+    padding: 18px 0
+    background-color: #212529
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1
+    width: 100%
+    .imgbox
+        img
+            cursor: pointer
+    nav
+        a
+            cursor: pointer
+    @media screen and (min-width: 992px)
+        .navbar
+            nav
+                a
+                    font-size: 18px
+                    color: #ffffff
+                    margin-right: 30px
+                    &:hover
+                        color: #ffc800
+            .menubox
+                position: absolute
+                h6, i
+                    display: none
+        .imgbox
+            img
+                height: 32px
+                width: 187px
+    @media screen and (max-width: 991px)
+        .navbar
+            .imgbox
+                img
+                    height: 24px
+                    width: 140px
+            nav
+                a
+                    display: none
+            .menubox
+                position: static
+                border: 1px solid #383b3f
+                border-radius: 5px
+                height: 40px
+                width: 85px
+                h6, i
+                    display: flex
+                h6
+                    color: #979397
+                    font-weight: 700
+                    font-size: 15px
+                    margin-right: 10px
+                i
+                    font-size: 12px
+                    color: #979397
+
+    @media screen and ( max-width: 575px )
+        .navbar
+            display: flex
+            flex-flow: row wrap
