@@ -14,6 +14,12 @@ a:hover {
   width: 100%;
 }
 
+@media screen and (max-width: 528px) {
+  html {
+    display: flex;
+  }
+}
+
 header {
   padding: 18px 0;
   background-color: #212529;
@@ -179,15 +185,6 @@ header nav a {
     font-size: 18px;
     letter-spacing: 2px;
     padding: 20px 40px;
-  }
-}
-@media screen and (max-width: 280px) {
-  #welcome .btn {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #welcome .btn a {
-    letter-spacing: 0;
   }
 }
 
@@ -563,6 +560,8 @@ header nav a {
 }
 
 #contactus {
+  height: 100%;
+  min-height: 160px;
   padding: 96px 0;
   background-image: url(Assets/map-image.png);
   background-position: center center;
