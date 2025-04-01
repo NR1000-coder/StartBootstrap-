@@ -99,13 +99,19 @@ header nav a {
   background-position: center center;
   background-size: cover;
 }
-#welcome .btn a {
+#welcome .btn {
   border: 1px solid #ffc800;
   border-radius: 5px;
-  color: #ffffff;
-  font-weight: 700;
+  height: 69px;
+  width: 224px;
   background: #ffc800;
   cursor: pointer;
+  padding: 20px 40px;
+}
+#welcome .btn a {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
 }
 #welcome .btn a:hover {
   background-color: #d9aa00;
@@ -131,10 +137,6 @@ header nav a {
     font-size: 36px;
     margin-bottom: 40px;
   }
-  #welcome .btn a {
-    font-size: 22px;
-    padding: 20px 50px;
-  }
   #welcome .row {
     position: relative;
     top: 270px;
@@ -152,11 +154,6 @@ header nav a {
   }
   #welcome .btn {
     margin-top: 20px;
-  }
-  #welcome .btn a {
-    font-size: 18px;
-    letter-spacing: 3px;
-    padding: 20px 40px;
   }
   #welcome .row {
     position: relative;
@@ -180,11 +177,6 @@ header nav a {
   #welcome .row {
     position: relative;
     top: -35px;
-  }
-  #welcome .btn a {
-    font-size: 18px;
-    letter-spacing: 2px;
-    padding: 20px 40px;
   }
 }
 
@@ -225,6 +217,7 @@ header nav a {
 }
 #services .textbox h4 {
   font-size: 24px;
+  font-weight: 700;
   color: #212529;
   margin: 16px 0;
 }
@@ -240,7 +233,6 @@ header nav a {
   padding: 96px 0;
 }
 #portfolio .textbox {
-  padding: 24px;
   text-align: center;
 }
 #portfolio .textbox h2 {
@@ -433,6 +425,9 @@ header nav a {
   }
 }
 @media screen and (max-width: 767px) {
+  #about ul li {
+    margin-bottom: 50px;
+  }
   #about ul li .box .textbox {
     padding: 0 20px 0 110px;
     text-align: start;
@@ -529,10 +524,29 @@ header nav a {
 #team ul li .icon i:hover {
   cursor: pointer;
 }
+#team .col-lg-8 {
+  margin: 0 220px;
+}
+@media screen and (max-width: 1399px) {
+  #team .col-lg-8 {
+    margin: 0 190px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #team .col-lg-8 {
+    margin: 0 160px;
+  }
+}
 @media screen and (max-width: 991px) {
   #team .row-format {
     display: flex;
     flex-direction: row;
+  }
+  #team .col-lg-8 {
+    margin: 0;
+  }
+  #team .textbox p {
+    display: flex;
   }
 }
 
@@ -546,19 +560,22 @@ header nav a {
 #company .box .imgbox img:hover {
   cursor: pointer;
 }
-#company .box .microsoft {
-  width: 200px;
+#company .box .microsoft img {
+  width: 205px;
+  height: 44px;
 }
-#company .box .google {
+#company .box .google img {
   width: 118px;
+  height: 44px;
 }
-#company .box .facebook {
+#company .box .facebook img {
   width: 164px;
+  height: 44px;
 }
-#company .box .ibm {
+#company .box .ibm img {
   width: 110px;
+  height: 44px;
 }
-
 #contactus {
   height: 100%;
   min-height: 160px;
