@@ -353,6 +353,14 @@ header .navbar .menubox h6, header .navbar .menubox i {
 #about ul li .right .imgbox {
   margin-left: 530px;
 }
+@media screen and (max-width: 1399px) {
+  #about ul li .left .imgbox {
+    margin-right: 480px;
+  }
+  #about ul li .right .imgbox {
+    margin-left: 470px;
+  }
+}
 @media screen and (max-width: 1199px) {
   #about ul li .box .imgbox {
     height: 150px;
@@ -515,9 +523,6 @@ header .navbar .menubox h6, header .navbar .menubox i {
   #team .col-lg-8 {
     margin: 0;
   }
-  #team .textbox p {
-    display: flex;
-  }
 }
 
 #company {
@@ -619,6 +624,26 @@ header .navbar .menubox h6, header .navbar .menubox i {
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
+}
+@media screen and (max-width: 1399px) {
+  #contactus .box, #contactus .bigbox {
+    width: 546px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #contactus .box, #contactus .bigbox {
+    width: 456px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #contactus .box, #contactus .bigbox {
+    width: 336px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #contactus .box, #contactus .bigbox {
+    width: 516px;
+  }
 }
 
 footer {
