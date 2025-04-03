@@ -31,30 +31,24 @@ header {
   width: 100%;
 }
 header .imgbox img {
+  height: 32px;
+  width: 187px;
   cursor: pointer;
 }
-header nav a {
+header .navbar nav a {
+  font-size: 18px;
+  color: #ffffff;
+  margin-right: 30px;
   cursor: pointer;
 }
-@media screen and (min-width: 992px) {
-  header .navbar nav a {
-    font-size: 18px;
-    color: #ffffff;
-    margin-right: 30px;
-  }
-  header .navbar nav a:hover {
-    color: #ffc800;
-  }
-  header .navbar .menubox {
-    position: absolute;
-  }
-  header .navbar .menubox h6, header .navbar .menubox i {
-    display: none;
-  }
-  header .imgbox img {
-    height: 32px;
-    width: 187px;
-  }
+header .navbar nav a:hover {
+  color: #ffc800;
+}
+header .navbar .menubox {
+  position: absolute;
+}
+header .navbar .menubox h6, header .navbar .menubox i {
+  display: none;
 }
 @media screen and (max-width: 991px) {
   header .navbar .imgbox img {
@@ -116,31 +110,25 @@ header nav a {
 #welcome .btn a:hover {
   background-color: #d9aa00;
 }
+#welcome .wlcmtext {
+  display: inline;
+}
 #welcome .wlcmtext h1 {
+  font-size: 72px;
+  margin-bottom: 64px;
+  letter-spacing: 8px;
   color: #ffffff;
   font-weight: 700;
 }
 #welcome .wlcmtext h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
   color: #ffffff;
   font-weight: 500;
 }
-@media screen and (min-width: 992px) {
-  #welcome .wlcmtext {
-    display: inline;
-  }
-  #welcome .wlcmtext h1 {
-    font-size: 72px;
-    margin-bottom: 64px;
-    letter-spacing: 8px;
-  }
-  #welcome .wlcmtext h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-  }
-  #welcome .row {
-    position: relative;
-    top: 270px;
-  }
+#welcome .row {
+  position: relative;
+  top: 270px;
 }
 @media screen and (max-width: 991px) {
   #welcome .wlcmtext h1 {
@@ -365,14 +353,6 @@ header nav a {
 #about ul li .right .imgbox {
   margin-left: 530px;
 }
-@media screen and (max-width: 1399px) {
-  #about ul li .left .imgbox {
-    margin-right: 480px;
-  }
-  #about ul li .right .imgbox {
-    margin-left: 470px;
-  }
-}
 @media screen and (max-width: 1199px) {
   #about ul li .box .imgbox {
     height: 150px;
@@ -527,16 +507,6 @@ header nav a {
 #team .col-lg-8 {
   margin: 0 220px;
 }
-@media screen and (max-width: 1399px) {
-  #team .col-lg-8 {
-    margin: 0 190px;
-  }
-}
-@media screen and (max-width: 1199px) {
-  #team .col-lg-8 {
-    margin: 0 160px;
-  }
-}
 @media screen and (max-width: 991px) {
   #team .row-format {
     display: flex;
@@ -649,26 +619,6 @@ header nav a {
   color: #ffffff;
   font-size: 20px;
   font-weight: 600;
-}
-@media screen and (max-width: 1399px) {
-  #contactus .box, #contactus .bigbox {
-    width: 546px;
-  }
-}
-@media screen and (max-width: 1199px) {
-  #contactus .box, #contactus .bigbox {
-    width: 456px;
-  }
-}
-@media screen and (max-width: 991px) {
-  #contactus .box, #contactus .bigbox {
-    width: 336px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #contactus .box, #contactus .bigbox {
-    width: 516px;
-  }
 }
 
 footer {

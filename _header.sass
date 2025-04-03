@@ -9,27 +9,22 @@ header
     width: 100%
     .imgbox
         img
+            height: 32px
+            width: 187px
             cursor: pointer
-    nav
-        a
-            cursor: pointer
-    @media screen and (min-width: 992px)
-        .navbar
-            nav
-                a
-                    font-size: 18px
-                    color: #ffffff
-                    margin-right: 30px
-                    &:hover
-                        color: #ffc800
-            .menubox
-                position: absolute
-                h6, i
-                    display: none
-        .imgbox
-            img
-                height: 32px
-                width: 187px
+    .navbar
+        nav
+            a
+                font-size: 18px
+                color: #ffffff
+                margin-right: 30px
+                cursor: pointer
+                &:hover
+                    color: #ffc800
+        .menubox
+            position: absolute
+            h6, i
+                display: none
     @media screen and (max-width: 991px)
         .navbar
             .imgbox
