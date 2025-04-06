@@ -62,7 +62,7 @@ header .navbar .menubox h6, header .navbar .menubox i {
     position: static;
     border: 1px solid #383b3f;
     border-radius: 5px;
-    height: 40px;
+    height: 30px;
     width: 85px;
   }
   header .navbar .menubox h6, header .navbar .menubox i {
@@ -114,14 +114,14 @@ header .navbar .menubox h6, header .navbar .menubox i {
   display: inline;
 }
 #welcome .wlcmtext h1 {
-  font-size: 72px;
+  font-size: 75px;
   margin-bottom: 64px;
   letter-spacing: 8px;
   color: #ffffff;
   font-weight: 700;
 }
 #welcome .wlcmtext h2 {
-  font-size: 36px;
+  font-size: 50px;
   margin-bottom: 40px;
   color: #ffffff;
   font-weight: 500;
@@ -131,13 +131,7 @@ header .navbar .menubox h6, header .navbar .menubox i {
   top: 270px;
 }
 @media screen and (max-width: 991px) {
-  #welcome .wlcmtext h1 {
-    font-size: 72px;
-    margin-bottom: 64px;
-    letter-spacing: 8px;
-  }
   #welcome .wlcmtext h2 {
-    font-size: 36px;
     margin-bottom: 32px;
   }
   #welcome .btn {
@@ -153,11 +147,11 @@ header .navbar .menubox h6, header .navbar .menubox i {
     padding: 213px 0 100px;
   }
   #welcome .wlcmtext h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   #welcome .wlcmtext h1 {
-    font-size: 52px;
+    font-size: 60px;
     margin-top: 10px;
     letter-spacing: 5px;
     margin-bottom: 15px;
@@ -190,27 +184,27 @@ header .navbar .menubox h6, header .navbar .menubox i {
   text-align: center;
 }
 #services .textbox h2 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 16px;
   letter-spacing: 3px;
 }
 #services .textbox h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #6c757d;
   margin-bottom: 64px;
   letter-spacing: 1px;
 }
 #services .textbox h4 {
-  font-size: 24px;
+  font-size: 33px;
   font-weight: 700;
   color: #212529;
   margin: 16px 0;
 }
 #services .textbox p {
-  font-size: 16px;
+  font-size: 20px;
   color: #6c7781;
   margin-bottom: 16px;
   line-height: 1.5;
@@ -225,20 +219,20 @@ header .navbar .menubox h6, header .navbar .menubox i {
   padding: 24px;
 }
 #portfolio .textbox h2 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
   color: #212529;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   letter-spacing: 3px;
 }
 #portfolio .textbox h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #6c757d;
   letter-spacing: 1px;
 }
 #portfolio .textbox h4 {
-  font-size: 24px;
+  font-size: 33px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 10px;
@@ -272,7 +266,7 @@ header .navbar .menubox h6, header .navbar .menubox i {
 }
 @media screen and (max-width: 575px) {
   #portfolio .box {
-    padding: 0 48px;
+    padding: 0 30px;
   }
 }
 
@@ -280,14 +274,14 @@ header .navbar .menubox h6, header .navbar .menubox i {
   padding: 96px 0;
 }
 #about h2 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 16px;
   letter-spacing: 3px;
 }
 #about h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #6c757d;
   margin-bottom: 64px;
@@ -299,14 +293,17 @@ header .navbar .menubox h6, header .navbar .menubox i {
 #about ul li .box {
   display: flex;
 }
+#about ul li .box .textbox {
+  margin: 0 20px;
+}
 #about ul li .box .textbox h4 {
-  font-size: 24px;
+  font-size: 33px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 8px;
 }
 #about ul li .box .textbox p {
-  font-size: 18px;
+  font-size: 20px;
   color: #6c757d;
   margin-bottom: 8px;
   line-height: 1.4;
@@ -333,13 +330,13 @@ header .navbar .menubox h6, header .navbar .menubox i {
 }
 #about ul li .box .yellow h5 {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 #about ul li .left .textbox {
   text-align: end;
-  padding: 0 20px 20px 100px;
+  padding: 0 20px 20px 50px;
 }
 #about ul li .left .imgbox {
   margin-right: 600px;
@@ -350,6 +347,14 @@ header .navbar .menubox h6, header .navbar .menubox i {
 }
 #about ul li .right .imgbox {
   margin-left: 530px;
+}
+@media screen and (max-width: 1399px) {
+  #about ul li .left .imgbox {
+    margin-right: 480px;
+  }
+  #about ul li .right .imgbox {
+    margin-left: 470px;
+  }
 }
 @media screen and (max-width: 1199px) {
   #about ul li .box .imgbox {
@@ -431,7 +436,7 @@ header .navbar .menubox h6, header .navbar .menubox i {
   padding: 96px 0;
 }
 #team h2 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
   color: #212529;
   margin-bottom: 16px;
@@ -465,16 +470,16 @@ header .navbar .menubox h6, header .navbar .menubox i {
   text-align: center;
 }
 #team .box .textbox h4 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
   color: #212529;
   margin-top: 24px;
 }
 #team .box .textbox p {
-  font-size: 18px;
+  font-size: 20px;
   color: #6c757d;
   margin-bottom: 16px;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 #team ul {
   display: flex;
@@ -484,10 +489,10 @@ header .navbar .menubox h6, header .navbar .menubox i {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 40px;
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
-  margin: 0 8px;
+  margin: 0 10px;
   background-color: #212529;
 }
 #team ul li .icon:hover {
@@ -495,7 +500,7 @@ header .navbar .menubox h6, header .navbar .menubox i {
   background-color: #424649;
 }
 #team ul li .icon i {
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
 }
@@ -551,14 +556,14 @@ header .navbar .menubox h6, header .navbar .menubox i {
   background-color: #212529;
 }
 #contactus .textbox h2 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 16px;
   letter-spacing: 3px;
 }
 #contactus .textbox h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #6c757d;
   margin-bottom: 64px;
@@ -639,8 +644,8 @@ footer .box ul li .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 40px;
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
   margin: 0 8px;
   background-color: #212529;
@@ -650,18 +655,22 @@ footer .box ul li .icon:hover {
   background-color: #424649;
 }
 footer .box ul li .icon i {
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
 }
 footer .box ul li .icon i:hover {
   cursor: pointer;
 }
+footer .box h4 {
+  font-size: 18px;
+}
 footer .text {
   display: flex;
-  justify-content: between;
+  justify-content: end;
 }
 footer .text h4 {
+  font-size: 18px;
   margin-right: 20px;
 }
 footer .text h4:hover {
@@ -675,8 +684,5 @@ footer .text h4:hover {
   }
   footer .box ul, footer .box h4 {
     margin: 20px 0;
-  }
-  footer .text h4 {
-    margin-right: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
