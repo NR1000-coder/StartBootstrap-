@@ -80,6 +80,9 @@ header .navbar .menubox h6, header .navbar .menubox i {
   }
 }
 @media screen and (max-width: 575px) {
+  header {
+    height: 100px;
+  }
   header .navbar {
     display: flex;
     flex-flow: row wrap;
@@ -144,7 +147,7 @@ header .navbar .menubox h6, header .navbar .menubox i {
 }
 @media screen and (max-width: 767px) {
   #welcome {
-    padding: 213px 0 100px;
+    padding: 300px 0 210px;
   }
   #welcome .wlcmtext h2 {
     font-size: 30px;
