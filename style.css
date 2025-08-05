@@ -61,7 +61,7 @@ header .navbar .menubox h6, header .navbar .menubox i {
   header .navbar .menubox {
     position: static;
     border: 1px solid #383b3f;
-    border-radius: 5px;
+    border-radius: 2px;
     height: 30px;
     width: 85px;
   }
